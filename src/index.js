@@ -1,6 +1,6 @@
 import express from 'express';
 import bcrypt from 'bcrypt';
-import { randomUUID } from 'node:crypto';
+import { randomUUID } from 'crypto';
 
 let app = express();
 app.use(express.json());
